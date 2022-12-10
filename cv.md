@@ -15,7 +15,6 @@ _Mentor_
 
 ***
 
-
 ### Skills:
 - I have a general understanding of programming languages and software development process, OOP
 - Experience in using software development tools (IntelliJ IDEA, Microsoft Visual Studio,
