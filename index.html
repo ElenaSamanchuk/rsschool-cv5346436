@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=600, initial-scale=1">
     <meta name="author" content="Elena Samanchuk">
     <meta name="HandheldFriendly" content="true">
     <meta name="description" content="A few lines about yourself">
-    <meta name="keywords" content="mentor,cv" />  
+    <meta name="keywords" content="mentor,cv">  
     <title>CV</title>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
@@ -49,6 +50,9 @@
             <main class="main">
                 <section class="about" id="about">
                     <div class="about__hero">
+                        <video preload muted autoplay loop>
+                            <source src="video/background_loop.mp4" type="video/mp4">
+                        </video>
                       <a href="#" class="hero_logo">
                         <img src="img/logo.jpg" alt="logo">
                       </a>
@@ -159,72 +163,49 @@
 
                       <section class="examples" id="examples">
                         <div class="section_title"><h2>Code examples</h2></div>
-                        
+<div class="typed-out">
+
+                       
 <pre>
     <code>        
-        .popup button {
-            border: none;
-            border-radius: 15px;
-            background-color:rgb(255, 255, 255);
-            padding: 15px 50px;
-            font-family: 'Silkscreen', cursive;
-            font-size: 40px;
-            text-transform: uppercase;
-            color: rgb(60, 60, 60);
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            transition: 0.3s ease-in-out;
-            animation: button 3s ease-in-out infinite;
-            -webkit-border-radius: 15px;
-            -moz-border-radius: 15px;
-            -ms-border-radius: 15px;
-            -o-border-radius: 15px;
+        .smile {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: gold;            
+            transition: 0.3s ease-in-out;            
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
             -webkit-transition: 0.3s ease-in-out;
             -moz-transition: 0.3s ease-in-out;
             -ms-transition: 0.3s ease-in-out;
             -o-transition: 0.3s ease-in-out;
         }
         
-        @keyframes button {
-            0% {
-                transform: scale(0.9);
-                background-color:rgb(255, 255, 255);
-                -webkit-transform: scale(0.9);
-                -moz-transform: scale(0.9);
-                -ms-transform: scale(0.9);
-                -o-transform: scale(0.9);
-        }
-            50% {
-                transform: scale(1.1);
-                background-color:rgb(243, 243, 243);
-                -webkit-transform: scale(1.1);
-                -moz-transform: scale(1.1);
-                -ms-transform: scale(1.1);
-                -o-transform: scale(1.1);
-        }
-            100% {
-                transform: scale(0.9);
-                background-color:rgb(255, 255, 255);
-                -webkit-transform: scale(0.9);
-                -moz-transform: scale(0.9);
-                -ms-transform: scale(0.9);
-                -o-transform: scale(0.9);
+        .smile:hover {
+          transform: scale(2);
         }
         }                        
     </code>
 </pre>
+</div> 
                         <ul class="skills_name_group">
                             <li>
                             <span class="circle"></span> <a href="https://github.com/ElenaSamanchuk/heroicnow" target="_blank">autotests js + selenium webdriver</a> 
                             </li>
                         </ul>
-                        <figure class="zoom">
-                            <a href="https://elenasamanchuk.github.io/CV4/AudioPlayer/index.html" target="_blank"><img src="img/1.png" alt="hexal" class="photo"></a>
-                            <a href="https://elenasamanchuk.github.io/CV4/Cart/index.html" target="_blank"><img src="img/2.png" alt="kinomonster" class="photo"></a>
-                            <a href="https://elenasamanchuk.github.io/CV4/Slider/index.html" target="_blank"><img src="img/3.png" alt="cv" class="photo"></a>
-                            <a href="https://elenasamanchuk.github.io/CV4/Movie/index.html" target="_blank"><img src="img/4.png" alt="hexal" class="photo"></a>
-                            <a href="https://elenasamanchuk.github.io/CV4/X%20O/index.html" target="_blank"><img src="img/5.png" alt="kinomonster" class="photo"></a>
-                            <a href="https://elenasamanchuk.github.io/CV4/ToDoList/index.html" target="_blank"><img src="img/6.png" alt="cv" class="photo"></a>
-                          </figure>
+                        <figure class="zoom">                            
+                            <a href="https://elenasamanchuk.github.io/CV4/Cart/index.html" target="_blank"><img src="img/2.png" alt="Cart" class="photo video"></a>
+                            <a href="https://elenasamanchuk.github.io/CV4/Slider/index.html" target="_blank"><img src="img/3.png" alt="Slider" class="photo video"></a>
+                            <a href="https://batski.by/" target="_blank"><img src="img/e.png" alt="batski" class="photo video"></a>
+                            <a href="http://venice-guide-natallia.com/" target="_blank"><img src="img/f.png" alt="venice" class="photo video"></a>                            
+                            <img src="img/c.png" alt="photo" class="photo video">
+                            <video src="video/a.mp4" class="photo video" preload muted autoplay loop></video>
+                        </figure>
+
+                       
                       </section>
 
                       <section class="experience" id="experience">
