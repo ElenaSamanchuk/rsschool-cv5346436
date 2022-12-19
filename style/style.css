@@ -698,6 +698,11 @@ and (max-device-width : 1000px) {
     align-items: center;
     justify-content: space-around;
   }
+    
+    .about__hero video {
+    left: -80%;
+    width: 300%;   
+}
 
 }
   
