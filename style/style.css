@@ -566,12 +566,6 @@ li {
     justify-content: flex-start;
 }
 
-
-
-
-
-
-
 .up a{        
         position:fixed;
         bottom:50px;
@@ -580,6 +574,18 @@ li {
         z-index: 10;      
         font-size: 5em;
         color: white;
+}
+
+.up {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.up:hover {
+    font-size: 1.2em;
 }
 
 .footer {
