@@ -469,7 +469,7 @@ h1, h2 {
     transition: 0.3s ease-in-out;
     animation: none;
     padding: 2rem;
-    transform: scale(1.2);
+    transform: scale(1.1);
     border-radius: 10px;
     box-shadow: 0 0 5px #666666;
     -webkit-transform: scale(1.2);
