@@ -566,14 +566,15 @@ li {
     justify-content: flex-start;
 }
 
-.up a{        
+.up a{
         position:fixed;
         bottom:50px;
         right:50px;
         cursor:pointer;
-        z-index: 10;      
+        z-index: 9;
         font-size: 5em;
         color: white;
+        
 }
 
 .up {
@@ -582,11 +583,27 @@ li {
     -moz-transition: 0.3s ease-in-out;
     -ms-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
+    animation: up 3s ease-in-out infinite;
+    -webkit-animation: up 3s ease-in-out infinite;
 }
 
-.up:hover {
-    font-size: 1.2em;
+@keyframes up {
+    0% {
+        font-size: 0.9em;
+        bottom: 60px;
+    }
+
+    50% {
+        font-size: 1em;
+        bottom: 50px;
+    }
+
+    100% {
+        font-size: 0.9em;
+        bottom: 60px;
+    }
 }
+
 
 .footer {
     margin: 0 auto;
